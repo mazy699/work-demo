@@ -19,17 +19,14 @@ public class CustomersController {
 
     @GetMapping("/getAll")
     public List<Customers> getAllCustomers(){
-        List<Customers> customersList = customersService.getAllCustomers();
-        return customersList;
+        return customersService.getAllCustomers();
     }
     @GetMapping("/getByCustomerName/{customerName}")
     public Customers getByCustomerName(@PathVariable String customerName){
-        Customers customers = customersService.getByCustomerName(customerName);
-        return customers;
+        return customersService.getByCustomerName(customerName);
     }
     @GetMapping("/getByCustomerNumber/{customerNumber}")
     public Customers getByCustomerNumber(@PathVariable Integer customerNumber){
-        Customers customers = customersService.getByCustomerNumber(customerNumber);
-        return customers;
+        return customersService.getByCustomerNumber(customerNumber);
     }
 }

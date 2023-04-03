@@ -7,7 +7,6 @@ import com.example.workdemo.service.CustomersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -18,7 +17,7 @@ public class CustomersServiceImpl implements CustomersService {
 
     @Override
     public List<Customers> getAllCustomers() {
-        List<Customers> customersList = new ArrayList<>();
+        List<Customers> customersList;
         CustomersExample customersExample = new CustomersExample();
         customersExample.createCriteria().getAllCriteria();
         customersList = customersMapper.selectByExample(customersExample);
