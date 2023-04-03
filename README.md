@@ -11,19 +11,19 @@
 
 ---
 spring-boot
--[ ] tomcat
--[ ] actuator
--[ ] aop
--[ ] mail
--[ ] devtools
--[ ] test
--[ ] security-test
--[ ] mybatis-test
--[ ] dbunit
--[ ] mockito
--[ ] pagehelper
--[ ] druid
--[x] mybatis-generator
--[ ] jsonwebtoken
--[ ] jackson
--[x] mapstruct
+- [ ] tomcat
+- [ ] actuator
+- [ ] aop
+- [ ] mail
+- [ ] devtools
+- [ ] test
+- [ ] security-test
+- [ ] mybatis-test
+- [ ] dbunit
+- [ ] mockito
+- [ ] pagehelper
+- [ ] druid
+- [x] mybatis-generator
+- [ ] jsonwebtoken
+- [ ] jackson
+- [x] mapstruct
