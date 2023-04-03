@@ -1,1 +1,6 @@
-
+spring:
+  datasource:
+    username: mazy
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yiibaidb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC

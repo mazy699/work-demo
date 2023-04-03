@@ -24,7 +24,8 @@
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="mapper"
+        <!--targetPackage="com.example.workdemo.mapper"最好和XMLMAPPER的targetPackage一致，方便配置config-->
+        <sqlMapGenerator targetPackage="com.example.workdemo.mapper"
                          targetProject="F:/codefile/code/IDEA/workspace/work-demo/src/main/resources">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
