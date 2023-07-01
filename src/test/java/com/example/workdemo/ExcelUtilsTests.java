@@ -1,23 +1,15 @@
 package com.example.workdemo;
 
-import com.example.workdemo.bean.ExcelExportBean;
 import com.example.workdemo.util.ExcelUtils;
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.*;
 
 class ExcelUtilsTests {
 
     @Test
-    void contextLoads() throws NoSuchFieldException, IllegalAccessException, IOException {
-        // 创建模拟数据
-        ExcelExportBean user1 = new ExcelExportBean("admin", "123456", LocalDateTime.now());
-        ExcelExportBean user2 = new ExcelExportBean("admin", "123456", LocalDateTime.now());
-        List<ExcelExportBean> users = Arrays.asList(user1, user2);
-
+    void contextLoads() {
         // 文件路径
         String basePath = "src/main/resources/excelFile/";
         String fileName = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + ".xlsx";
