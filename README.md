@@ -15,7 +15,7 @@ spring-boot
 - [ ] actuator
 - [ ] aop
 - [ ] mail
-- [ ] devtools
+- [x] devtools
 - [ ] test
 - [ ] security-test
 - [ ] mybatis-test
@@ -28,4 +28,5 @@ spring-boot
 - [ ] jackson
 - [x] mapstruct
 ---
-- [ ] Excel导出并下载
+
+- [x] Excel导出并下载

@@ -8,10 +8,10 @@
 
     <context id="Mybatis3Context" targetRuntime="MyBatis3">
         <property name="javaFileEncoding" value="UTF-8"/>
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/yiibaidb?useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;nullCatalogMeansCurrent=true"
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://192.168.31.128:3306/yiibaidb?useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;nullCatalogMeansCurrent=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"
                         userId="mazy"
-                        password="123456">
+                        password="mazy2853">
         </jdbcConnection>
 
         <javaTypeResolver>
